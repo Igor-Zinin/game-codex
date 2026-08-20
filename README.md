@@ -1,9 +1,31 @@
-# axioma-xks-codex — knowledge that tells you when it has gone stale
+# almanac — knowledge that tells you when it has gone stale
 
-[![selftest](https://github.com/Igor-Zinin/axioma-xks-codex/actions/workflows/selftest.yml/badge.svg)](https://github.com/Igor-Zinin/axioma-xks-codex/actions/workflows/selftest.yml)
+[![selftest](https://github.com/Igor-Zinin/almanac/actions/workflows/selftest.yml/badge.svg)](https://github.com/Igor-Zinin/almanac/actions/workflows/selftest.yml)
 [![code: MIT](https://img.shields.io/badge/code-MIT-lightgrey)](LICENSE-CODE)
 [![knowledge: CC BY 4.0](https://img.shields.io/badge/knowledge-CC%20BY%204.0-lightgrey)](LICENSE)
-[![live page](https://img.shields.io/badge/live-igor--zinin.github.io%2Faxioma--xks--codex-blue)](https://igor-zinin.github.io/axioma-xks-codex/docs/)
+[![live page](https://img.shields.io/badge/live-igor--zinin.github.io%2Falmanac-blue)](https://igor-zinin.github.io/almanac/docs/)
+
+> **Renamed 18 Aug 2026**, from `axioma-xks-codex`. The old address still redirects.
+> The format did not change; what changed is what it is *for* — see the next section.
+
+## What this is becoming: an annual almanac
+
+**An almanac of verifiable claims.** Once a year: dated statements carrying a numeric
+probability and a named source of resolution, scored when the term falls due. Signatories
+are people and models in one table. Inside each issue sits **the envelope** — sealed, not
+to be opened before its date, holding the bets for the coming year.
+
+Two names, two layers. The **almanac** is the publication: it grows, accumulates, gets
+bound. The **envelope** is the ritual object inside it: sealed, gifted, carrying wax.
+
+**Nothing has been published yet.** No issue exists; no envelope has been sealed. The first
+issue is due **December 2026**, and this line is here so that a missed December is visible
+to anyone reading, not only to its author. That is the same discipline the format below
+applies to knowledge: a claim states when it expires.
+
+The specification, the observatory and the chess run in this repository are not the product.
+They are the **language** the almanac is written in, the **front desk** where others submit,
+and the **first run** that proved the desk works.
 
 ## The failure this is about
 
@@ -168,8 +190,8 @@ observatory log; the public `local_check` is the reproducible source of truth.
 ## Quick start
 
 ```bash
-git clone https://github.com/Igor-Zinin/axioma-xks-codex
-cd axioma-xks-codex
+git clone https://github.com/Igor-Zinin/almanac
+cd almanac
 node selftest.mjs
 ```
 
@@ -219,7 +241,7 @@ field, quiz with hidden answers, and the machine criterion. Nothing is retyped i
 the HTML — every value is read from the `.pko.json` at runtime, and an empty field is
 drawn as a dash rather than filled in with a guess.
 
-Live: **https://igor-zinin.github.io/axioma-xks-codex/docs/**
+Live: **https://igor-zinin.github.io/almanac/docs/**
 
 ---
 
